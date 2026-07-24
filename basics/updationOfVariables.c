@@ -4,9 +4,14 @@ int main(){
     printf("%d\n",x);
     x = 10 ;
     printf("%d\n",x);
-    x = x + 100;
+    x = x + 100;    // x = 110
     printf("%d\n",x); 
-    x = x - 105;
+    x = x - 105;    // x = 5
+    printf("%d\n",x);
+    x = x * 2;  // x = 10
+    printf("%d\n",x);
+    x = x/5;    // x = 2
     printf("%d\n",x);
     return 0;
+
 }
