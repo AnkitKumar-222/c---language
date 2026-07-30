@@ -3,8 +3,9 @@ int main(){
     int x;
     printf("Enter a number : ");
     scanf("%d",&x);
-    if( x%2==0) printf("Even Number");
-    if( x%2!=0) printf("Odd Number");
+    // if statement
+    if( x>0) printf("Positive Number");
+    if( x>0) printf("Negetive Number");
 
     return 0;
 }
